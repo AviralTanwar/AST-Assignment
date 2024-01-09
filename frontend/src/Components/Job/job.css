@@ -1,0 +1,54 @@
+.job_pg{
+    padding: 30px;
+}
+.job_pg h1{
+    text-align: center;
+}
+form{
+    width: 800px;
+    /* background-color: red; */
+    margin: 40px auto;
+}
+.input_holder{
+    display: flex;
+    justify-content: space-between ;
+    margin-top: 20px;
+}
+.input_holder div{
+    display: flex;
+    flex-direction: column;
+}
+.input_holder label{
+    font-weight: 600;
+    font-size: 18px;
+}
+.input_holder input{
+    width: 380px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.btn_holder{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.btn_update{
+    padding: 12px 30px;
+    background-color: #4fc3a1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn_delete {
+    padding: 12px 30px;
+    background: none;
+    border: 2px solid tomato;
+    color: tomato;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn_holder button:first-child{
+    margin-right: 20px;
+}
